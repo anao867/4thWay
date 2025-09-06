@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 500px;
-  margin: 40px auto 0 auto; /* Top margin for spacing, auto for even sides */
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto 0 auto; 
   padding: 1em;
   box-sizing: border-box;
 }
@@ -50,10 +50,22 @@ ul {
 }
 
 .definition p {
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
+  line-height: 1.7;
+  font-size: 1.08em;
 }
 
 .definition small {
   color: #666;
   font-style: italic;
+}
+
+/* Optional: slightly larger font for the whole glossary */
+#glossary {
+  font-size: 1.08em;
+}
+
+/* Optional: add a little space between glossary items */
+.term {
+  margin-bottom: 2em;
 }
