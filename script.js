@@ -522,14 +522,29 @@ if (searchInput) {
           // Apply new highlighting only if search term is not empty
           if (searchTerm.length > 0) {
             const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            // Match whole words surrounded by word boundaries
-            const regex = new RegExp(`\\b${escapedTerm}\\b`, 'gi');
+            
+            // For single character searches, require word boundaries to avoid matching every letter
+            // For longer searches, use word boundaries
+            let regexPattern;
+            if (searchTerm.length === 1) {
+              // Single char: must be a standalone word or letter (space/punctuation around it)
+              regexPattern = `(^|\\s|\\b)${escapedTerm}($|\\s|\\b)`;
+            } else {
+              // Multiple chars: standard word boundary matching
+              regexPattern = `\\b${escapedTerm}\\b`;
+            }
+            
+            const regex = new RegExp(regexPattern, 'gi');
             const html = definition.innerHTML;
             const highlighted = html.replace(
               /(<[^>]+>)|([^<]+)/g,
               function(match, tag, text) {
                 if (tag) return tag;
-                return text.replace(regex, '<mark>$&</mark>');
+                return text.replace(regex, function(match) {
+                  // Extract just the actual term without the surrounding characters
+                  const trimmed = match.trim();
+                  return match.replace(trimmed, `<mark>${trimmed}</mark>`);
+                });
               }
             );
             definition.innerHTML = highlighted;
