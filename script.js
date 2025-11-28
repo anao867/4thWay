@@ -516,14 +516,15 @@ if (searchInput) {
           definition.style.display = 'block';
           // Apply highlighting
           if (searchTerm.length > 0) {
-            const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`\\b${escapedTerm}\\b`, 'gi');
             const html = definition.innerHTML;
             // Only highlight text that's not already in tags
             const highlighted = html.replace(
               /(<[^>]+>)|([^<]+)/g,
               function(match, tag, text) {
                 if (tag) return tag;
-                return text.replace(regex, '<mark>$1</mark>');
+                return text.replace(regex, '<mark>$&</mark>');
               }
             );
             definition.innerHTML = highlighted;
