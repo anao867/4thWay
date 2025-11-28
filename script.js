@@ -494,6 +494,39 @@ const searchInput = document.getElementById('search');
 const expandAllBtn = document.getElementById('expandAll');
 const collapseAllBtn = document.getElementById('collapseAll');
 
+function highlightText(element, searchTerm) {
+  if (!searchTerm || searchTerm.length === 0) {
+    // Remove previous highlights
+    element.innerHTML = element.innerHTML.replace(/<mark[^>]*>(.*?)<\/mark>/gi, '$1');
+    return;
+  }
+  
+  const regex = new RegExp(`(${searchTerm})`, 'gi');
+  const text = element.textContent;
+  
+  // Only process text nodes to avoid breaking HTML
+  const walk = document.createTreeWalker(
+    element,
+    NodeFilter.SHOW_TEXT,
+    null,
+    false
+  );
+  
+  const nodesToReplace = [];
+  let node;
+  while (node = walk.nextNode()) {
+    if (node.nodeValue.toLowerCase().includes(searchTerm.toLowerCase())) {
+      nodesToReplace.push(node);
+    }
+  }
+  
+  nodesToReplace.forEach(node => {
+    const span = document.createElement('span');
+    span.innerHTML = node.nodeValue.replace(regex, '<mark>$1</mark>');
+    node.parentNode.replaceChild(span, node);
+  });
+}
+
 if (searchInput) {
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
@@ -514,6 +547,10 @@ if (searchInput) {
         term.style.display = 'block';
         if (searchTerm !== '' && termContent.includes(searchTerm)) {
           definition.style.display = 'block';
+          highlightText(definition, searchTerm);
+        } else {
+          // Clear highlights if not matching content
+          definition.innerHTML = definition.innerHTML.replace(/<mark[^>]*>(.*?)<\/mark>/gi, '$1');
         }
       } else {
         term.style.display = 'none';
