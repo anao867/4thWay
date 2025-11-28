@@ -500,9 +500,15 @@ if (searchInput) {
     const termElements = document.querySelectorAll('.term');
     
     termElements.forEach(term => {
-      const termText = term.textContent.toLowerCase();
-      if (searchTerm === '' || termText.includes(searchTerm)) {
+      const termTitle = term.querySelector('span').textContent.toLowerCase();
+      const termContent = term.querySelector('.definition').textContent.toLowerCase();
+      
+      if (searchTerm === '' || termTitle.includes(searchTerm) || termContent.includes(searchTerm)) {
         term.style.display = 'block';
+        // Auto-open if searching for content
+        if (searchTerm !== '' && termContent.includes(searchTerm)) {
+          term.querySelector('.definition').style.display = 'block';
+        }
       } else {
         term.style.display = 'none';
       }
