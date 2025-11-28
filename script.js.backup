@@ -149,7 +149,7 @@ const terms = [
 <p> Q. Having observed a certain tendency in oneself, one decides that it shall not happen.</p>
 <p> A. Usually after one has decided it still goes on happening. Or if it does not happen, generally another tendency appears in its place. As a rule only one thing stops things - fear.</p>
 
-<p> Q. Do chief features vary during life?</p>
+<p> Q. Do chief features vary during life?</p> features vary during life?</p>
 <p> A. If they are clearly delineated, they go on throughout the whole life.</p>
 
 <p> Q. Yet I can see things that I had that do not exist now.</p>
@@ -313,16 +313,7 @@ const terms = [
     term: "Identification",
     excerpts: [
       {
-        text: `<p>Real struggle begins with struggling with identification. If you destroy identification, negative emotions will become weaker by themselves. But of course change of points of view is also very necessary.</p>
-
-<p>Q. Can one think of identification as a negative state that can only be caused by negative emotions?</p>
-<p>A. No, not quite like that. Identification is a necessary element in every negative emotion; you cannot have a negative emotion without identification. So the study of identification and struggle against identification are very powerful weapons in the struggle with negative emotions. Sometimes you cannot struggle with a negative emotion directly, but by trying not to identify you diminish its power, for all the power of negative emotions lies in identification and imagination. So when you separate identification and imagination, the negative emotion practically disappears, or at any rate changes.</p>
-
-<p>Q. So to fight against negative emotions themselves we have to observe more and work against the strong identification with emotions?</p>
-<p> A. Yes. Later we will speak about methods of struggling with emotions themselves, because there are many and very definite methods, different for different emotions; but first you must struggle with negative imagination and identification. This is quite sufficient to destroy many of the usual negative emotions in any case, to make them much lighter. You must start with this, because it is only possible to begin using stronger methods when you can struggle with identification to a certain extent, and when you have already stopped negative imagination. That must be stopped completely. It is useless to study further methods until that is done. Negative imagination you can stop; and even the study of identification will already diminish it. You must try to avoid identification as often as you can, not only in relation to negative emotions but in relation to everything. If you create in yourself the capacity of not identifying, that will affect these emotions and you will notice that they begin to disappear. Identification is the atmosphere in which negative emotions live, and they cannot live without it.</p>
-
-<p> Q. Is identification always a manifestation of false personality?</p>
-<p> A. False personality cannot manifest itself without identification, the same as negative emotions and many other things in us, such as all lying, all imagination. One identifies, first of all, with one's imaginary idea of oneself. One says 'this is I' when it is nothing but imagination. It is the same with lying - one cannot lie without identification; it would be very poor lying and nobody would believe it. So it means that first one must deceive oneself, and then one can deceive other people. Study of false personality is one of the quickest methods for self-remembering. The more you understand your false personality, the more you will remember yourself. What prevents self-remembering is, first of all, false personality. It cannot and does not wish to remember itself, and it does not wish to let any other personality remember. It tries in every possible way to stop self-remembering, takes some form of sleep and calls it self-remembering. Then it is quite happy. You must not trust your false personality its ideas, its words, its actions. You cannot destroy it, but you can make it passive for some time and then, little by little, you can make it weaker.</p>`,
+        text: `<p>Real struggle begins with struggling with identification. If you destroy identification, negative emotions will become weaker by themselves. But of course change of points of view is also very necessary.</p>`,
         source: "The Fourth Way - P.D. Ouspensky"
       }
     ]
@@ -340,8 +331,10 @@ const terms = [
     term: "Inner and external considering + quiet place inside",
     excerpts: [
       {
-        text: `<p> Identification in relation to people takes a special form which is called, in this system, considering. But considering can be of two kinds when we consider other people's feelings, and when we consider our own. Chiefly we consider our own feelings. We consider mostly in the sense that people somehow do not value us enough or do not think about us enough, or are not careful enough about us. We find many words for that. This is a very important facet of identification and it is very difficult to be free from it; some people are fully in its power. In any case, it is important to observe considering. For me personally, in the beginning, the most interesting idea was that of self-remembering. I simply could not understand how people could miss such a thing. All European philosophy and psychology just missed this point. There are traces in older teachings, but they are so well disguised and placed between less important things that you cannot see the importance of the idea. When we try to keep all these things in mind and to observe ourselves, we come to the very definite conclusion that in the state of consciousness in which weare, with all this identification, considering, negative emotions and absence of self-remembering, we are really asleep. We only imagine that we are awake. So when we try to remember ourselves it means only one thing we try to awake. And we do awake for a second but then we fall asleep again. This is our state of being, so actually we are asleep. We can awake only if we correct many things in the machine and if we work very
- persistently on this idea of awaking, and for a long time. You may remember that in the first lecture I said that identifying with people takes the form of considering. There are two kinds of considering: internal and external. Internal considering is the same as identifying. External considering needs a certain amount of self-remembering; it means taking into account other people's weaknesses, putting oneself in their place. Often in life it is described by the word 'tact'; only tact may be educated or accidental. External considering means control. If we learn to use it consciously, it will give us a possibility of control.
+        text: `<p> Identification in relation to people takes a special form which is called, in this system, considering. But considering can be of two kinds when we consider other people's feelings, and when we consider our own. Chiefly we consider our own feelings. We consider mostly in the sense that people somehow do not value us enough or do not think about us enough, or are not careful enough about us. We find many words for that. This is a very important facet of identification and it is very difficult to be free from it; some people are fully in its power. In any case, it is important to observe considering. For me personally, in the beginning, the most interesting idea was that of self-remembering. I simply could not understand how people could miss such a thing. All European philosophy and psychology just missed this point. There are traces in older teachings, but they are so well disguised and placed between less important things that you cannot see the importance of the idea. When we try to keep all these things in mind and to observe ourselves, we come to the very definite conclusion that in the state of consciousness in which weare, with all this identification, considering, negative emotions and absence of self-remembering, we are really asleep. We only imagine that we are awake. So when we try to remember ourselves it means only one thing we try to awake. And we do awake for a second but then we fall asleep again. This is our state of being, so actually we are asleep. We can awake only if we correct many things in the machine and if we work very persistently on this idea of awaking, and for a long time.</p>
+
+ <p> Q. It seems to me I cannot study a person without losing myself in him or her, yet I understand that this is wrong?</p>
+<p> A. It is a wrong idea that one cannot study a person or anything else without losing oneself. If you lose yourself in anything, you cannot study it. Identifying is always a weakening element: the more you identify the worse your study is and the smaller the results. You may remember that in the first lecture I said that identifying with people takes the form of considering. There are two kinds of considering: internal and external. Internal considering is the same as identifying. External considering needs a certain amount of self-remembering; it means taking into account other people's weaknesses, putting oneself in their place. Often in life it is described by the word 'tact'; only tact may be educated or accidental. External considering means control. If we learn to use it consciously, it will give us a possibility of control.
  Internal considering is when we feel that people do not give us enough, do not appreciate us enough. If one considers internally one misses moments of external considering. External considering must be cultivated, internal considering must be eliminated. But first observe and see how often you miss moments of external considering and what an enormous role internal considering plays in life. Study of internal considering, of mechanicalness, of lying, of imagination, of
  identification shows that they all belong to us, that we are always in these states. When you see this, you realize the difficulty of work on oneself. Such as you are you cannot begin to get something new; you will see that first you must scrub the machine clean; it is too covered with rust. We think we are what we are. Unfortunately we are not what we are but what we have become; we are not natural beings. We are too asleep, we lie too much, we live too much in imagination, we identify too much. We think we have to do with real beings, but in reality we have to do with imaginary beings. Almost all we know about ourselves is imaginary. Beneath all this agglomeration man is quite different. We have many imaginary things we must throw off before we can come to real things. So long as we live in imaginary things, we cannot see the value of the real; and only when we come to real things in ourselves can we see what is real outside us. We have too much accidental growth in us.<p>
 
@@ -403,9 +396,7 @@ means identification; external considering means struggle with identification. I
 <p> A. Yes, you can take it like that.</p>
 
 <p> Q. I have tried to reach it again by trying to self-remember, but could not find it.</p>
-<p> A. If you find yourself in it again, try to remember how you got there, for sometimes it happens that one finds this place and loses the way there; then again one finds it and again loses the way. It is very difficult to remember the
- way to this place.
- </p>`,
+<p> A. If you find yourself in it again, try to remember how you got there, for sometimes it happens that one finds this place and loses the way there; then again one finds it and again loses the way. It is very difficult to remember the way to this place.</p>`,
         source: "The Fourth Way - P.D. Ouspensky"
       }
     ]
@@ -437,7 +428,398 @@ means identification; external considering means struggle with identification. I
 
 <p>Q. We talk of schools and different levels. Is it not rather confusing? What do higher levels mean?</p>
 <p> A. Why do you find the idea of higher levels confusing? For instance, we can take this idea of levels quite simply in relation to ourselves: using all our mental capacities we can think only up to a certain level, but if we could use
- higher centres, for instance higher emotional centre which already needs more or less complete self-remembering, then certainly on the same subject we could think quite differently and find many more connections in things which we do not notice now. That shows different levels of thinking, and sometimes we actually have glimpses of a higher level of thinking, so we may have some material for observation, because even now we can think differently on the same subject.</p>`,
+ higher centres, for instance higher emotional centre which already needs more or less complete self-remembering, then certainly on the same subject we could think quite differently and find many more connections in things which we do not notice now. That shows different levels of thinking, and sometimes we actually have glimpses of a higher level of thinking, so we may have some material for observation, because even now we can think differently on the same subject.
+  
+<p> Chapter V</p>
+
+ 
+<p> IT WOULD BE GOOD IF, FROM TIME TO TIME, you tried to summarize in your mind what you have heard so far; because after some time of coming to lectures and talks one begins to forget the chronology of the ideas, and it is
+ important to remember the order in which they are given. Out of all you have heard, the most important idea is that with certain knowledge and certain efforts man can develop, he can complete himself. The development of  man, if it is a process (it is not obligatory at all), passes through certain definite stages or steps. If you return to the beginning, you will remember what was said about the absence of consciousness in man and the fact that when a man realizes it, this realization gives him the possibility of acquiring consciousness, and you will see that this is the direction in which man can develop. As long as he does not realize that he is simply a machine and that all his processes are mechanical, he cannot begin to study himself, for this realization is the beginning of self-study. So study must begin in this way: we must realize that we do not possess self-consciousness, that we cannot be aware of ourselves at moments of action or thought. This is the first step. The second step is to realize that we do not know ourselves, we do not know our machine and how it works. And the next step is to realize that we have to study methods of self
+study. We observe ourselves all our life, but we do not know what self-observation means. Real self-observation must be based on facts. So one of the first points is: how to remember oneself, how to be more conscious?
+ It is not enough to admit this absence of consciousness in oneself; one has to see it in actual fact, to verify it from personal observation. We do not realize what consciousness is and what it implies. If one becomes conscious for half an hour, it is incredible what one can see and learn. So it is an aim in itself, because of what it brings, and it also means a step towards objective consciousness. It is necessary to speak a little about this, about what is meant by the four degrees of consciousness man can possess. If we take it from the point of view of cognition of truth, then in sleep we cannot know the difference between what is true and what is not true. Things we see in dreams all look alike. In the waking state we already have more opportunity to recognize the difference between things: the shape of things is made out by our eye, the surface of things by touch and, to a certain extent, we can orientate ourselves by the perceptions of our instruments of sense. So there is an objective element, but we ourselves remain subjective to ourselves. When we become self conscious, we become objective to ourselves, and in objective conscious we can know objective truth about everything. These are the degrees of consciousness.</p>
+
+<p> Q. Must we change our knowledge in order to see things as they really are and know the truth?</p>
+<p> A. No, in this state of consciousness we cannot come to things as they are; we have to change our state of consciousness. But we can take off some layers of lying. Things are surrounded by lying. We can take off one, two or three skins and come nearer to real things.</p>
+
+<p> Q. I am not clear about higher consciousness. Could we at least know how to think about it?</p>
+<p> A. We realize the possibility of higher consciousness when we realize that we are not conscious at all. We are conscious only at rare moments, without possibility of control. Now we are in two states in sleep and half-awake.Theoretical comparisons of states of consciousness and descriptions in words will not help; but when we begin to awake we realize the state in which we are now. It is necessary to find moments of self-remembering and then, at these moments, you will see the difference. By studying yourself you will see that you can be very near to sleep, or you can be near to self-consciousness. So study begins with the study of these different states in ourselves. For instance, when we take ourselves as one or do not think about it then we are nearly asleep. But when we begin to divide ourselves and know that at every moment it is only one'I' or one group of 'I's speaking, then we are nearer to self-consciousness, nearer to objective facts. There are different ways of studying consciousness in oneself. In the beginning the first thing is the realization that one cannot be conscious when one wants to. The best time to realize this is after you have been speaking or doing something. Suppose you have been talking about some important business, or writing a letter; then ask yourself, 'Was I conscious at that time?' The second thing, in the beginning, is the realization that you are not one, that you have many different 'I's.</p>
+
+<p> Q. How is one to recognize when one is self-conscious?</p>
+<p> A. You will know; it is quite a different feeling. If you try to be conscious for a moment and then compare it with another moment when you did not try to be conscious, you will see the difference. It cannot be described. One moment you are aware of yourself, another moment you are not: you do things, you speak, you write and you are not conscious. Only you must remember that it is said from the very beginning that we must study not only states of consciousness but also obstacles to consciousness. So we must study them, and then remove them. All these obstacles are in ourselves. External circumstances we cannot change, we have to take them as they are and change inwardly in these circumstances.</p>
+
+<p> Q. If you observe yourself for a moment, are you conscious at that moment?</p>
+<p> A. Not necessarily; it maybe quite mechanical. But if you are conscious at the same time that you observe, the line of your attention will resemble two arrows, one showing attention directed on the thing you observe and another on yourself.</p>
+
+<p> Q. I cannot understand the link between self-observation and self-remembering. How to begin, what to do?</p>
+<p> A. Self-remembering is an attempt to be aware of yourself. Self-observation is always directed at some definite function: either you observe your thoughts, or movements, or emotions, or sensations. It must have a definite object which you observe in yourself. Self-remembering does not divide you, you must remember the whole, it is simply the feeling of 'I', of your own person. They may come together, particularly at later stages, and then you will be able to do both at the same time observe some thing definite, or recognize manifestations in yourself, and remember yourself; but in the beginning the two things are different. You begin with self-observation that is the normal way and through self-observation you realize that you do not remember yourself. When you realize that, and that at very rare moments you do remember yourself, then any person who is not definitely prejudiced will be able to understand that it is possible to increase these moments of self-remembering. And then you try to do it.</p>
+
+<p> Q. I find it difficult to decide whether I really observe myself or only remember things afterwards.</p>
+<p> A. In the beginning there is no particular necessity to worry about which is which; just do what you can, either observe at the moment, or remember it immediately, or remember after some time. But later you will catch particular moments when you can be aware of yourself at the actual moment when things happen. That will be self-remembering.</p>
+
+<p> Q. How do you know of the miraculous results which will follow self-remembering?<p>
+<p> A. You see, this is connected with the whole idea of development, with the possibility of changing being. This is one of the first things we must understand: that man is not bound to remain as he is; he can change. There are different degrees of man that can be attained after long and persistent work. If we can be more conscious, this will make higher centres work. The functioning of higher centres will be in many ways miraculous. The idea of self-remembering enters into many systems and school teachings, but it is not in the right place, it is never put first. But this system says that you do not remember yourself and that if you understand that you do not remember
+ yourself, you may be able to achieve something. Self-awareness is the greatest change possible, because in ordinary conditions of life nobody is aware of himself, and yet people do not realize this. Everybody sitting here, if they ask themselves sincerely whether they are aware of themselves, will have to answer that they are not. Nobody is aware. The whole idea is to be aware of yourself in this place, at this moment. This is the beginning, for one has to begin somewhere. Later it may take different forms, many other things maybe included in it. Nothing can describe this: it is material for observation and study. Descriptions will not help, one has to practise. Normally nobody remembers himself, nobody is aware of himself. This is the ordinary state of a human being, of a man-machine. But if he knows about it, if he realizes it and thinks about it, it becomes possible. Only, in the beginning self-remembering is very slow in coming and very small, with long lapses of not remembering.</p>
+
+<p> Q. Is the essential feature of a state of self-remembering the ordinary state of alertness of mind?</p>
+<p> A. No, you cannot take it like that it is too small. It is a different state, more different from our present state than our present state is from physical sleep; but even comparing sleep with the ordinary state gives you some possibility of understanding the difference. When you are asleep, your world is limited by actual sensations, but when you wake up and find yourself in the objective world (although you see this world in subjective categories) it is much less limited. But when you realize that this is not full awakening, that you are actually less than half-awake, you will understand that if you awake fully you will find yourself in a still richer world and will see and understand many of its characteristics which now pass unnoticed.</p>
+
+<p> Q. I want to know whether self-remembering, at any rate at an early stage, should be expected to consist of a sterile cessation of attention to any-thing other than oneself?<p>
+<p> A. At an early stage it can only be a realization that you do not remember yourself. If we realize how little we are aware of ourselves and how tiny the moments are when we are aware, when we remember that and feel that and realize what it means, then we can understand what self-remembering means. If you realize the importance of this fact and all that it implies, it will not be sterile. But if you do not realize it, you are quite right, it will be sterile. Then it will simply be a strange exercise that does not lead anywhere.</p>
+
+<p> Q. Does self-remembering come automatically when you realize that you do not remember yourself?</p>
+<p> A.This is self-remembering. You cannot make the next step without realizing where you are. It is the same process, the same thing. The more you realize how unpleasant and dangerous it is to be a machine, the more possibility you have to change.</p>
+
+<p> Q. How?</p>
+<p> A. There is always something we can do at certain moments. You must know these moments, and what to do, and how. We are studying doors. Self-remembering is a door. If realization that we do not remember ourselves becomes continuous, then we can remember ourselves. Every day you can find time to realize that you do not remember yourself; this will gradually bring you to self-remembering. I do not mean to remember that you do not remember yourself but to realise it. I repeat, it is not useful to look for definitions, they would only make understanding more difficult. What is really useful for understanding Is comparing the different degrees of consciousness within our ordinary state, for even in our ordinary state of relative consciousness there are different degrees, different levels: we can be nearer to awakening or further from it. We can see such big differences in ourselves, when we really learn to observe, that it will show us the possibilities we have. It is the one unmistakable thing. We are always moving between two shores between sleep and awakening. Moving more towards one shore or more towards the other creates two different possibilities: one is development, the other is decay.</p>
+
+<p> Q. You asked us not to accept anything without questioning it. Have you knowledge that these higher states of consciousness have actually been reached?</p>
+<p> A. Oh yes. In the first place you can find many descriptions in literature of how mystics and religious people came to the same things. The similarity of descriptions of these experiences is the best proof. All sorts of people in different countries, thousands of years apart, living in different conditions, have come to the same kind of experience by certain ways. Then you can find many people who have personal experience of this kind which proves that quite different states of perception and reaction exist. So it is not a hypothesis.</p>
+
+<p> Q. I have recently had a very strange experience. I was talking to someone and trying to be aware of myself. Suddenly I saw my friend very clearly and realized that before this I had not really seen her at all.</p>
+<p> A. This is a very good observation; it actually happens that way. When you tried to be aware of yourself, for a moment you became conscious and saw things you had not seen before. If you could keep this consciousness for, say, ten minutes, you would see many things which would astonish you. We look with our eyes and do not see; but if we become conscious, we begin to see things about which we have no idea. This is quite normal, if only you do not let imagination enter into it.</p>
+
+<p> Q. Working to attain consciousness on the lines of the system, does there come a sudden change or illumination?</p>
+<p> A. Sudden? No. What does sudden mean? You see, in the process of growth of unity, when this process has gone on for a long time, at some difficult moment you may feel different. It may look sudden, but it is not really so. It is the result of previous efforts.</p>
+
+<p> Q. If potentiality for objective consciousness is the normal condition of man, how is it that only a few can develop?</p>
+<p> A. When you try to make the first step towards objective consciousness, which is gaining self-consciousness, and you see how difficult it is and how many forces work in you against it, how many obstacles there are, you will have no doubt that only a few can attain it, that it is a possibility, but a very remote possibility. There are too many obstacles laziness, lying, inertia. We like to sleep.</p>
+
+<p> Q. How and why did man come to be this being of false values?</p>
+<p> A. What do you mean by false values? It is a relative concept: from one point of view they may be false, from another true. You can only find out for yourself whether man's development is an abstract idea or the truth. You must yourself come to one or another point of view. If you realize that change is only possible through awakening, then it becomes a fact, because you can see small degrees of awakening in yourself.</p>
+
+<p> Q. If man does not remember himself, does it mean he has no consciousness?</p>
+<p> A.You do not remember yourself; not man but you. If you try and fail, it does not mean you have no consciousness, but that you have not enough. Your own experience, however limited, can alone show the degree. When we use the word 'self-consciousness' we mean a certain degree, beyond our ordinary amount of consciousness. We have a certain amount of consciousness, but it is not sufficient for getting out of our state. If we had not a drop of consciousness, we
+ would remain as we are.</p>
+
+<p> Q. How is it possible to recognize self-remembering if we ever do?</p>
+<p> A. First it must be understood by mind what it means and what it would mean to have it; and then it must be understood that one can be at different distances from it. Suppose one is not sure, but the distance between the state of self-remembering and your present state changes, and after a time you realize that one day it is five thousand miles and another day only three thousand miles. There is a difference. We cannot speak about several degrees at the same time; we can only speak about the next degree we can produce.</p>
+
+<p> Q. I want to find out about the next degree.</p>
+<p> A. This is all material for observation. You want to put labels on them, but you cannot; they change all the time. One moment it is almost self-consciousness, the next moment you are asleep. You must observe and see results. In one state you can understand certain things, in the next you cannot. In one state you identify, in another you have control; the more control there is, the nearer you are to self-consciousness. Talk will not help much, it will remain formatory. It is necessary to touch the emotional centre, and you can do that only by trying different things. Work is not simple: from the very beginning you must try to do impossible things impossible in the sense that they do not happen by themselves. There cannot be a text-book telling you to do first one thing, then another thing, and so on. At the same time questions about self-remembering must always be asked, because, for a long time, many mistakes are possible about it. So these questions must never be suppressed, for they are most important.</p>
+
+<p> Q. Is there a connection between self-remembering and awakening?</p>
+<p> A. Self-remembering is a method of awakening. What you are doing now is only preparation, only the study of the method. You must do as much as you can in your present state; then, when your inner situation changes, you will be able to use all the experience which you now acquire. But to reach the real meaning of self-remembering is possible only in very emotional states. Since you cannot create these emotional states, you cannot know what self-remembering is, but you can prepare for this experience; then when it comes you will know how to deal with it. Very high emotional energy is necessary for self-remembering. Now you are only practising, but without this practice you will never get the real state.</p>
+
+<p> Q. When you say 'asleep' and 'awake', is there a definite line between the two?</p>
+<p> A. No, they are transitory states. At the same time there is a line beyond which we neverpass.</p>
+
+<p> Q. Is it a question of training?</p>
+<p> A. It is more training of mind. We must learn to think in a different way, and above all to think more practically. We do not think practically as a rule we think mostly about things that do not concern us.</p>
+  
+<p> Q. Is then self-remembering a function of the intellectual centre? It appears to be an intellectual effort.</p>
+<p> A. Self-remembering is the beginning and the centre of the system and the most important thing to understand. You cannot describe it as an intellectual action or intellectual idea. You have to begin studying what self-remembering means intellectually, but in actual fact it is not intellectual because it is a moment of will. It is necessary to remember yourself not at a quiet moment when nothing happens but when you know that you are doing something wrong and not do it. For instance, when you are identified, you must be able to feel it and then stop it and at the same time remember yourself, be aware that you are doing it, that mechanicalness causes you to be identified and that you are stopping it. That will be self-remembering.</p>
+
+<p> Q. How can one start practising self-remembering?</p>
+<p> A. You remember I gave the example of varying degrees of light in a room and a type writer. The type writer can be taken as the intellectual centre, and light as consciousness. Only, in the case of consciousness there is a certain connection between all centres, for in full light not only one but all centres work differently. Real self-remembering requires emotion, but we have no control over the emotional centre. So by a certain understanding we can make the intellectual centre, over which we have a certain control, work in the dark as though it were light, and this will produce self-remembering. Self-remembering means a form of thinking or intellectual work which corresponds to awakening, and in this way it induces a moment of awakening. Then, when one awakes for a moment, one realizes that generally one is asleep, that one is not conscious, and how dangerous it is. The more you put into it, the more you understand it, the better the result will be. If you realize what you lose by not remembering yourself and what you gain by remembering yourself, you will have a greater incentive for making efforts to self-remember. You will see that not
+ remembering yourself is like finding yourself in an aeroplane, high above the earth, and fast asleep. This is in fact our situation, but we do not wish to realize it. If a man does realize it, then naturally he will make efforts to awake. But if he thinks he is just sitting in an easy chair and nothing particular is happening, he will think that there is no harm in sleeping.</p>
+
+<p> Q. What is meant by putting one's thoughts in a form in which they would correspond to awakening?</p>
+ A. As I said, thoughts are the only thing we can control. To a certain extent we can control movements, but in ordinary conditions, without special instruction, we can do nothing with movements. As regards thoughts, first of all we must throw out all thoughts connected with identification and think about the ideas of the system. This is preparation for self-remembering, because at every point we come to the necessity to remember ourselves. If you cannot remember yourself, try to revive the ideas of the system in your mind. The whole system, the study of man and the universe, is all help to self-remembering. This thinking will by itself remind you and create an inner atmosphere for it. But first you must eliminate all thoughts that stand in the way. If at this stage you cannot control thoughts, you can do nothing further. You may not control your temper, or your imagination, or your lying, but you must control your
+ thoughts. At quiet moments you must be able to see when you are wrong. If you cannot, it means that you have not begun yet; but sooner or later one must begin.</p>
+
+<p> Q. Should we, each of us, know what stands in our way?</p>
+<p> A. Yes, certainly everyone must know. It is generally connected with some form of negativeness, or laziness, or fear.</p>
+
+<p> Q. I still do not see what it means to try and think as we would think if we were more conscious.</p>
+<p> A. Try to imagine yourself conscious that would be the right use of imagination. We develop this power of imagination in an absolutely wrong and useless way which is always making trouble for us. But now, for once, try to use it and imagine yourself conscious. Try to think how you would act, think, speak and so on. At first self-remembering is an effort on functions. You begin to remember yourself simply by forming your mental processes in a certain way, and this brings moments of consciousness. You cannot work on consciousness itself: you can make one or two spasmodic efforts, but no permanent efforts. But you can make efforts on thoughts, and in this way you can work on consciousness in a roundabout way. This is the most important part of the method. Try to understand the difference between remembering yourself in this way and being conscious. It is the same mental process that you use in everything, in reading, writing and all that you do, so you have a certain control over it. Even if we put the same amount of energy into self-remembering that we put into the study of a foreign language we would acquire a certain amount of consciousness. Unfortunately we do not want to put even that amount of energy into it; we think that these things must come by themselves, or that it is enough to try once and it must come. Self-remembering needs effort, so, if you continue to make these efforts, moments of consciousness will come more often and will stay longer. Then, gradually, self-remembering will cease to be purely intellectual it will have an awakening power.</p>
+
+<p> Q. What will self-remembering be then emotion and sensation?</p>
+<p> A. Emotion is a function and sensation is a function, but self-remembering is not. It is an attempt to create in oneself a state of consciousness without any relation to functions. From the very beginning we must understand that functions are one thing and states of consciousness another. You are now in a certain state of consciousness, and by trying to remember yourself you try to create an approach to the third state of consciousness. You do this by a certain <em>reconstruction</em>. You reconstruct a certain form of thinking which you have in higher states of consciousness. You cannot keep a flash of consciousness unless your thoughts are in a certain form. It is quite simple: you remember the example of the line of attention with two arrows? Attention is directed both on myself and on the thing I see. This double attention is the form of thinking corresponding to another state of consciousness.</p>
+
+<p> Q. Is not self-remembering itself a state of consciousness?</p>
+<p> A. It can be taken like that. At the same time it can be taken as a method for inducing self-consciousness.</p>
+
+<p> Q. What is the relation of thought to consciousness?</p>
+<p> A. It is very difficult to answer briefly. Thought is a mechanical process, it can work without, or with very little consciousness. And consciousness can exist without perceptible thought.</p>
+
+<p> Q. If self-remembering can be taken either as a state of consciousness or as a method for inducing it, are there different kinds of self-remembering? Is it brought about by different qualities of thought?</p>
+<p> A. One has to do many things besides thinking one has to make efforts. It is not only thinking. The difference is only that at first we can do very little. We have to begin from where we are. Then, if we continue, self-remembering will gradually become more emotional. It is not different qualities of thought that make the difference; it is different qualities of effort and underlying realization. Self-remembering is effective only if one realizes that one does not remember oneself but that one can remember oneself.</p>
+
+<p> Q. Is not the act of giving attention a method of changing the state of consciousness?</p>
+<p> A. A certain control of attention is necessary even in ordinary life. But attention can be drawn, or it can be controlled, and that is of quite a different value.</p>
+
+<p> Q. I understood that we have a certain control of our thoughts in the sense of stopping certain kinds of thinking. But I have never heard before about constructing our thoughts.</p>
+<p> A. We have the power not only not to think but also to think about this and that. So we can do both: we can eliminate useless thoughts and we can also put in the centre of our thinking the realization of 'I' 'I am here', 'I am thinking'.</p>
+
+<p> Q. Why is it that an accident or a violent crisis brings self-remembering?</p>
+<p> A. Every kind of emotional moment, emotional shock, makes you realize 'I am'. You realize it without any theory behind it: if you find yourself in a very unexpected place, you have a feeling of 'I' and 'here'; when you are in unusual circumstances it always reminds you of your existence. But in customary conditions we always forget.</p>
+
+<p> Q. Is self-remembering the only strength the system hands out to us?</p>
+<p><em> A. It is the only way to reach all the rest, because it is the first thing that is lacking in us. We are always forgetting ourselves from one moment to another, and this state must be changed. One must remember oneself this is the beginning and the end of the whole thing, because when one has that one has everything.</em></p>
+
+<p> Q. What is the distinction in the meaning of attention and consciousness?</p>
+<p> A. Attention can be regarded as the elementary beginning of consciousness the first degree. It is not full awareness for it is only directed one way. As I said, consciousness needs double attention.</p>
+
+<p> Q. What is the object of attaining this higher consciousness to live more fully?</p>
+<p> A. One thing depends on another. If we want to have will, if we want to be free instead of being marionettes, if we want to awake, we must develop consciousness. If we realize that we are asleep and that all people are asleep, and what it means, then all the absurdities of life are explained. It is quite clear that people cannot do anything differently from what they do now if they are asleep.</p>
+
+<p> Q. As we are, would we ever be able to be conscious when we want to be, or does it always come accidentally?</p>
+<p> A. Nothing comes in its full state at once. The first step is to be more conscious, the second step is to be still more conscious. If, with effort, you can now make yourself be conscious for a minute, then, if you work on it and do all that is possible to help, after some time you will be able to be conscious for five minutes.</p>
+
+<p> Q. Is it wrong when it is accidental?</p>
+<p> A. You cannot rely on it. As we are, higher states cannot last; they are just flashes, and if they last, then it is imagination. This is a definite fact because we have no energy for lasting higher states. Flashes are possible, only again you must judge and classify them by what material they bring.</p>
+
+<p> Q. Cannot they last in memory even?</p>
+<p> A. The memory that we can command, control and use is only intellectual, and intellectual memory cannot keep them.</p>
+
+<p> Q. It seems to me quite impossible to self-remember at will, although it seems not quite so difficult to observe myself.</p>
+<p> A. You must try methods that will produce it. Try this method of stopping your thoughts, to see for how long you can keep your thoughts down, to think about nothing if you know about self-remembering. But suppose a man who does not
+ know about self-remembering tries this he will not come to the idea of self-remembering in this way. If you already know, that will create a moment of self-remembering; for how long will depend on your efforts. It is a very good way. This method is described, for instance, in some books on Yoga, but people who try it do not know why they are doing it, so it cannot produce good results. Quite the opposite, it may produce a kind of trance state.</p>
+
+<p> Q. When you said 'knowing about self-remembering', did you mean if you have it in your head as an aim, or if you had a taste of it?</p>
+<p> A. There are different degrees. You see, we speak about self-remembering all the time; we always come back to it; so you cannot say you do not know about self-remembering. But if you take a man who has studied ordinary psychology or
+ philosophy, he does not know about it.</p>
+
+<p> Q. Is it possible to have done self-remembering before one met this system? I ask because I have tried to self-remember and the results seem to correspond to what I used to do before, without knowing what I was doing.</p>
+<p> A. That's the thing. You can study it to understand the principle that if you do a certain thing knowing what it is, it gives one result, and if you do almost the same thing without knowing what it is, it gives a different result. Many people came very near to self-remembering in practice, others came very near to it in theory but without practice either theory without practice, or practice without theory and neither from the one nor from the other did they cometo the real truth. For instance, in the so-called Yoga literature there are many near approaches to self-remembering. For example, they speak about 'I am' consciousness, but they are so theoretical that you cannot get anything out of it. Self-remembering was never mentioned in any literature in an exact, concrete form, although in a disguised form it is spoken about in the New Testament and in Buddhist writings. For instance, when it is said, 'Watch, do not sleep', this is self-remembering. But people interpret it differently.</p>
+
+<p> Q. Is emotional centre the chief centre that works in self-remembering?</p>
+<p> A. You cannot control emotions. You simply decide to remember yourself. I have given you a very simple, practical method. Try to stop your thoughts but, at the same time, do not forget your aim that you do it in order to remember yourself. That may help. What prevents self-remembering? This constant turning of thoughts. Stop this turning, and perhaps you will have a taste of it.</p>
+
+<p> Q. What centres work in self-remembering?</p>
+<p> A. Self-remembering needs the best work you can produce, so the more centres that take part in it the better the result. Self-remembering cannot be produced by slow, weak work - the work of one or two centres. You may begin with two centres, but it is not sufficient, because other centres can interrupt your self-remembering and stop it. But if you put all centres to the work there is nothing that can stop it. You must always remember that self-remembering needs the best work you are capable of.</p>
+
+<p> Q. You said real self-remembering needs emotion, but when I think of it I do not experience any emotion. Can one remember oneself without emotional experience?</p>
+<p> A. The idea is to remember oneself, to be aware of oneself. And what comes with it you just notice, you must not put any definite demands upon it. If you make it a regular practice to try and remember yourself three or four times a day, self-remembering will come by itself in the intervals, when you need it. But that you will notice later. You must make it a regular practice to try and remember yourself, if possible at the sametimes of the day. And, as I said, the practice of stopping thoughts will produce the same effect. So, if you cannot remember yourself, try stopping thoughts. You can stop thoughts, but you must not be disappointed if at first you cannot. Stopping thoughts is a very difficult thing. You cannot say to yourself I will stop thoughts', and they stop. You have to use effort all the time. So you must not do it for long. If you do it for a few minutes it is quite sufficient, otherwise you will persuade yourself that you are doing it when instead you will just sit quietly and think and be very happy about it. As much as you can you must keep only one thought, 'I do not want to think about anything', and throw all other thoughts out. It is avery good exercise, but only an exercise.</p>
+
+<p> Q. Is it bad to stop breathing when one tries to stop thoughts?</p>
+<p> A. This question was asked once in our old groups and Mr. Gurdjieff asked: 'For how long?' Theman said for ten minutes. Mr. Gurdjieff answered: 'If you can stop breathing for ten minutes it is very good, because after four minutes you die!'</p>
+
+<p> Q. Are self-remembering and stopping thoughts the same thing?</p>
+<p> A. Not exactly; they are two different methods. In the first you bring in a certain definite thought the realization that you do not remember yourself. You must always start with that. And stopping thought is simply creating a right atmosphere, right surroundings, for self-remembering. So they are not the same thing, but they bring the same results.</p>
+
+<p> Q. Is one's work more accurate if one is remembering oneself and the work one is doing?</p>
+<p> A. Yes, when you are awake you can do everything better, but a long time is necessary for that. When you get accustomed to self-remembering you will not be able to understand how you ever worked without it. But in the beginning it is difficult to work and to remember oneself at the same time. Still, efforts in this direction give very interesting results; of that there can be no doubt. All experience of all times shows that these efforts are always rewarded. Besides, if you make these efforts you will understand that certain things one can only do in sleep and cannot do when one is awake, because some things can only be mechanical. For instance, suppose you forget or lose things: you cannot lose things on purpose, you can lose them only mechanically.</p>
+
+<p> Q. While performing on the piano, when I thought 'I am here' I did not know what I was doing.</p>
+<p> A. Because this is not being conscious, it is thinking about self-remembering. Then it interferes with what you are doing; just as when you are writing and suddenly think 'How is this word spelt?' you cannot remember. This is one function interfering with another. But real self- remembering is not in centres, it is above centres. It cannot interfere with the work of centres, only one will see more, one will see one's mistakes. We must realize that the capacity for remembering oneself is our right. We do not have it, but we can have it; we have all the necessary organs for it, so to speak, but we are not trained, not accustomed to using them. It is necessary to createa certain particular energy or point, using this word in an ordinary sense, and this can be created only at a moment of a serious emotional stress. Everything before that is only preparation of the method. But if you find yourself in a moment of very strong
+ emotional stress and try to remember yourself then, it will remain after the stress is over, and then you will be able to remember yourself. So only with very intense emotion is it possible to create this foundation for self-remembering. But it cannot be done if you do not prepare yourself before hand. Moments may come, but you will get nothing from them. These emotional moments come from time to time, but we do not use them, because we do not know how to use them. If you try sufficiently hard to remember yourself during a moment of intense emotion, and if the emotional stress is strong enough, it will leave a certain trace, and this will help you to remember yourself in the future.</p>
+
+<p> Q. So what we are doing now is a sort of practising?</p>
+<p> A. Now you are only studying yourselves, you can do nothing else.</p>
+
+<p> Q. What is this preparation you are speaking about?</p>
+<p> A. Self-study, self-observation, self-understanding. We can change nothing yet, nor make a single thing different. It all happens in the same way as before. But there is a difference already, for you see many things you could not have seen before, and many things 'happen' differently. It does not mean you have changed anything: they happen differently.</p>
+
+<p> Q. Is our life long enough to attain results?</p>
+<p> A. You come to the understanding of this point through self-remembering. When you reach certain results in it, if it comes often like seeing oneself in a mirror then there comes another form of self-remembering, remembering one's life, the time-body. This increases possibilities. There are also other steps, but we can only speak of one step ahead, otherwise it would be imagination. We must understand that we must not touch certain questions without self-remembering. It is a question of perfecting our instrument of cognition. Our mind is very limited by our state of consciousness. We can hope that certain things will become comprehensible if our state of consciousness changes.</p>
+
+<p> Q. Can self-consciousness give knowledge?</p>
+</p> A. No, consciousness does not, by itself, give knowledge. Knowledge must be acquired. No amount of consciousness can give knowledge and no amount of knowledge can give consciousness. They are not parallel and cannot replace one
+ another. But when you become conscious you see things you have not seen before. If you keep it long enough it produces an enormous effect. The whole world would be different if you could keep it up for, say, fifteen minutes. But one cannot be aware of oneself for fifteen minutes without a very strong emotional element. You must produce something that makes you emotional; you cannot do it without the help of the emotional centre.</p>
+
+<p> Q. It does not come by itself?</p>
+<p> A. It is a question of destroying obstacles. We are not sufficiently emotional, because we spend our energy on identification, negative emotions, critical attitude, suspicion, lying and things like that. If we manage to stop this waste, we will be more emotional.</p>
+
+<p> Q. In endeavouring to remember myself I find that I should avoid too much effort. I feel that one can swamp the effect by excessive effort.</p>
+<p> A. What you mean is not too much effort, but a wrong kind of effort. Muscular effort will not help you to remember yourself. It is necessary for each person to find for himself the moment to make this particular big effort,especially at moments when all instinctive and emotional tendencies go against it. This is the moment to make effort. If you manage to remember yourself then, you will know how to do it.</p>
+
+<p> Q. How can one prevent regular efforts becoming just formal; how can one stop the meaning slipping out of them?</p>
+<p> A. Self-remembering cannot become formal; if it does it means deep sleep. Then it is necessary to do something to wake oneself up. But you must always start with the idea of mechanicalness and the results of mechanicalness. You are quite right. Everything slips away and disappears, and you find yourself again with nothing. Again you start with some conscious effort, again it slips away. The question is how to prevent it disappearing. In our ordinary ways of thinking and feeling there are many mechanical tendencies which always turn us in the usual way. We want to think in another way, we want to be different, to work in another way, to feel in a new way, but nothing happens, because there are so many old tendencies which turn us back. We must study these tendencies and try to throw light on them. Above all, we must overcome the inertia of mind; then, if we do, twenty-four hours will not be sufficient and life will become very full. It is difficult to begin and yet it is not so difficult.</p>
+
+<p> Q. How can one conquer this inertia?</p>
+<p> A. By effort: effort to self-remember, to observe, not to identify. Consciousness is a force, and force can only be developed by overcoming obstacles. Two things can be developed in man consciousness and will. Both are forces. If man overcomes unconsciousness, he will possess consciousness; if he overcomes mechanicalness he will possess will. If he understands the nature of the powers he can attain, it will be clear to him that they cannot be given; these powers must be developed by effort. If we were made more conscious, we would remain conscious machines. Mr. Gurdjieff told me that in some schools they could, by some special methods, make a sheep conscious. But it just remained a conscious sheep. I asked him what they did with it, and he said they ate it. The idea of the conscious sheep is this: suppose a man is made conscious by someone else; he will become an instrument in the hands of others. One's own efforts are necessary, because otherwise, even if a man is made conscious, he will not be able to use it. It is in the very nature of things that consciousness and will cannot be given. If someone could give them to you, it would not be an advantage. This is the reason why one must buy everything, nothing is given free. The most difficult thing is to learn how to pay. But if it could be explained in a few words, there would be no need to go to school. One has to pay not only for consciousness but for everything. Not the smallest idea can become one's own until one has paid for it.</p>
+
+<p> Q. Self-remembering seems to be a very sad and cheerless experience. Is it a sad system?</p>
+<p> A. There are no sad systems as far as I know; only sad people and sad attitudes, sad understanding. And I do not understand why self-remembering should be cheerless and sad. It is the realization of the fact that one is asleep. If one realized that one was asleep and there was no chance of awakening, then indeed it would be a cheerless realization, I quite agree. But the system does not say you should stop at that; it says that you should try to awake. And this is quite another thing. I remember, when I first heard this idea, I saw many quite new things, because it was an answer to all the questions I had when I studied psychology. So I realized at once that psychology begins at this point. I understood that man does not remember himself but could remember himself if he made sufficient efforts. Without self-remembering there can be no study, no psychology. But if a man realizes and bears in mind that he does not remember himself, and that nobody remembers, and yet there is a possibility of self-remembering, then study begins. This is how it must be understood. Certainly there can be no joy in realizing that one is a machine and asleep. But we
+ do not speak about joy or suffering, we speak about control. We realize that we are machines, and we do not want to be machines. We realize that we are asleep, and we want to awake. Real joy can only be connected with awakening or with something that helps awakening.</p>
+
+<p> Q. But so many people are self-conscious in a bad sense of the word. Isn't that a form of self-remembering too?</p>
+<p> A. Not at all. What is called being self-conscious in English is a form of embarrassment or shyness; it has nothing to do with self-remembering. As I have explained, if you are not awake you cannot make yourself awake; but you have some control over thoughts and you must construct them in such a way as to bring you to awakening.</p>
+
+<p> Q. Is a child nearer to self-remembering than a grown-up person? One has such vivid memories of childhood.</p>
+<p> A. No, not quite; it is not self-remembering. Self-remembering means conscious work, I mean intentional work. Vivid memories of childhood are due to the activity of the emotional centre. In a child it is more active, and moments of consciousness come by themselves. But self-remembering is a moment of consciousness that comes by your own effort. Suppose a child has flashes of consciousness without the possibility of using these moments? It does not help at all.</p>
+
+<p> Q. Would it not help us to try to get back to those states we had in childhood?</p>
+<p> A. How? That is the question. If we could stop identification, we would have many moments like that, but we do not know how to begin to stop identification. If we could destroy negative emotions, if we could remember ourselves, then those things would be in our hands, under our control, not accidental.</p>
+
+<p> Q. When well washed and carefully dressed I feel it is much easier to self-remember.</p>
+<p> A. It is not at all prohibited. This is not a fakir way.</p>
+
+<p> Q. What is the relationship between self-remembering and negative emotions?</p>
+<p> A. When negative emotion appears, self-remembering becomes impossible. So to remember oneself one must have a certain control of negative emotions. As a matter of fact, people are not equal in this respect: some have more, some less control even of the expression. And not only of the expression, for some people have more control of their emotions, some can control only certain emotions. And certainly only those who have a certain control of negative emotions can work on self-remembering and get good results. At the same time this control can be attained; one can begin from different sides, and if certain self-remembering is created, this immediately helps one to struggle with negative emotions; and struggle with negative emotions helps self-remembering.</p>
+  
+<p> Q. Does it always take a long time to awake?</p>
+<p> A. I can only say how much time it takes to know this system, but I cannot say how much time it takes to awake. Awakening is the result of personal work, so it is difficult to foretell. It goes by degrees. Complete awakening means a very big change, and that needs time, because it means acquiring new psychic functions. So we can only study degrees or steps which a man must pass through. One can be shown the way, but one must work for oneself. By itself learning is a small thing, for man can change himself only through the application of the knowledge he gets. Man can become conscious of himself at a given moment. This consciousness of himself is awakening one of the attributes of another state of consciousness.</p>
+
+<p> Q. Could a person wish to wake up and fail to do so?</p>
+<p> A. Maybe for a long time he will fail, but if he is capable of awakening he can awake; it is a long process. But certainly he may fail. We have only one good feature in our situation we have nothing to lose. So if we fail we will be in the same position as before, but if we succeed we gain something new.</p>
+
+<p> Q. Does any great effort tend to make one more conscious at the time?</p>
+<p> A. That depends on the effort, because if one just makes a great effort to do something in a state of identification, one will not be more conscious.</p>
+
+<p> Q. Does self-remembering automatically stop identification?</p>
+<p> A. There is nothing automatic in self-remembering every moment is effort. If it is sufficiently deep and sufficiently long it is one thing, but if it is just a flash it is not sufficient. Also, if you remember yourself to exclusion of everything else, it is one thing, and if you remember yourself and at the same time remember your aim and what you are doing, it is another thing. It depends on how much enters into self-remembering.</p>
+
+<p> Q. Would you call it self-consciousness?</p>
+<p> A. Self-consciousness is a permanent state. Self-remembering is an experiment; one day it may be successful and another day unsuccessful. It may be deeper or less deep.</p>
+
+<p> Q. Can we be told about the things that may be keeping us back?</p>
+<p> A. We are talking about just those things. There are two things that are keeping us back ignorance and weakness: we do not know enough and we are not strong enough. The question is how to know more. By self-study that is the only method. Then comes the struggle with identification and imagination, the chief causes of weakness. Only, in individual cases these things take on a different colour. What looks one colour for one person looks a different colour for another person. But the things that keep us back are more or less the same.</p>
+
+<p> Q. Is there nothing between self-awareness and identifying?</p>
+<p> A. They are on different levels, you cannot compare them. You cannot identify and be aware of yourself; the presence of one means the absence of the other. All things are connected, not a single manifestation is separate; they are all connected with a certain order of things.</p>
+
+<p> Q. I think I have not got the right idea about identification. Does it mean that things control us and not that we control things?</p>
+<p> A. Identification is a very difficult thing to describe, because no definitions are possible. Such as we are we are never free from identifying. If we believe that we do not identify with something, we are identified with the idea that we are not identified. You cannot describe identification in logical terms. You have to find a moment of identification, catch it, and then compare things with that moment. Identification is every where, at every moment of ordinary life. When you begin self-observation, some forms of identification already become impossible. But in ordinary life almost everything is identification. It is a very important psychological feature that permeates the whole of ourlife, and we do not notice it because we are in it. The best way to understand it is to find some examples. For instance, if you see a cat with a rabbit ora mouse this is identification. Then find analogies to this picture in yourself. Only, you must understand that it is there every moment, not only at exceptional moments. Identification is an almost permanent state in us. You must be able to see this state apart from yourself, separate it from yourself, and that can only be done by trying to become more conscious, trying to remember yourself, to be aware of yourself. Only when you become more aware of yourself are you able to struggle with manifestations like identification.</p>
+
+<p> Q. I find when I am identified it is nearly always with things inside me.</p>
+<p> A. Perhaps you are right; perhaps you are not right. You may think you are identified with one thing when in reality you are identified with quite a different thing. This does not matter at all; what matters is the state of identification. In the state of identification you cannot feel right, see right, judge right. But the subject of identification is not important: the result is the same.</p>
+
+<p> Q. So what is the way to overcome identification?</p>
+<p> A. That is another thing. It is different in different cases. First it is necessary to see; then it is necessary to put something against it.</p>
+
+<p> Q. What do you mean by 'put something against it'?</p>
+<p> A. Just turn your attention to something more important. You must learn to distinguish the important from the less important, and if you turn your attention to more important things you become less identified with unimportant things. You must realize that identification can never help you; it only makes things more confused and more difficult. If you realize even that that alone may help in somecases. People think that to be identified helps them, they do not see that it only makes things more difficult. It has no useful energy at all, only destructive energy.</p>
+
+<p> Q. Is identification mainly emotion?</p>
+<p> A. It always has an emotional element a kind of emotional disturbance, but sometimes it becomes a habit, so that one does not even notice the emotion.</p>
+
+<p> Q. I realize that it is important to be emotional in the right way, but when I feel something emotionally in the work, I soon destroy the whole thing.</p>
+<p> A. Only identification is destructive. Emotion can only give new energy, new understanding. You take identification for emotion. You do not know emotion without identification, so, in the beginning, you cannot visualize an emotion free from it. People often think they speak about an emotional function when in reality they speak about identification.</p>
+
+<p> Q. Is it possible for us, as we are now, to have any feeling at all without identifying?</p>
+<p> A. Very difficult, unless we begin to watch ourselves. Then easy kinds of identification I mean easy individually will respond to treatment. But everyone has his own specialities in identification. For instance, it is easy for me not to identify with music, for another it may be very difficult.</p>
+
+<p> Q. Is love without identification possible?</p>
+<p> A. I would say love is impossible with identification. Identification kills all emotions, except negative emotions. With identification only the unpleasant side remains.</p>
+
+<p> Q. Non-identifying does not mean aloofness?</p>
+<p> A. On the contrary, aloofness needs identification. Non-identifying is quite a different thing.</p>
+
+<p> Q. If you are identified with an idea, how can you stop it?</p>
+<p> A. First by understanding what identification means and then by trying to remember yourself. Begin with simple cases, then later you can deal with the more difficult.</p>
+
+<p> Q. As you develop self-remembering do you acquire a sort of detached attitude, more free from identification?</p>
+<p> A. Detached attitude in the sense that you know your attitudes better; you know what is useful to you and what is not useful. If you do not remember yourself it is easy to make a mistake about it. For instance, one can undertake some kind of study that is really quite useless. Self-remembering helps understanding, and understanding always means bringing everything to a certain centre. You must have a central point in all your work, in all your attitudes, and self-remembering is a necessary condition for that. We must talk more about identifying if it is not clear. It will become more clear when you find two or three good examples. It is a certain state in which you are in the power of things.</p>
+
+<p> Q. If I look closely and think deeply, does it mean I have become identified?</p>
+<p> A. No, identifying is a special thing, it means losing oneself. As I said, it is not so much a question of what one is identified with. Identification is a state. You must understand that many things you ascribe to things outside you are really in you. Take for instance fear. Fear is independent of things. If you are in a state of fear, you can be afraid of an ash-tray. This often happens in pathological states, and a pathological state is only an intensified ordinary state. You are afraid, and then you choose what to be afraid of. This fact makes it possible to struggle with these things, because they are in you.</p>
+
+<p> Q. Can we have any understanding with identification?</p>
+<p> A. How much can you understand in deep sleep, which is what identification is? If you remember your aim, realize your position and see the danger of sleep, it will help you to sleep less.</p>
+
+<p> Q. What is the difference between sympathy and identification?</p>
+<p> A. It is quite another thing; it is a normal and legitimate emotion and can exist without identification. There may be sympathy without identification and sympathy with identification. When sympathy is mixed with identification, it often ends in anger or another negative emotion.</p>
+
+<p> Q. You spoke of losing oneself in identification. Which self?</p>
+<p> A. All, everything. Identifying is a very interesting idea. There are two stages in the process of identifying. The first stage denotes the process of becoming identified, the second a state when identification is complete.</p>
+
+<p> Q. The first stage is quite harmless?</p>
+<p> A. If it attracts too much attention and occupies too much time, it leads to the second.</p>
+
+<p> Q. When you desire something, can you desire it without identification?</p>
+<p> A. Identification is not obligatory. But if you desire to hit someone, you cannot do it without identification; if identification disappears, you do not want to any longer. It is possible not to lose oneself; losing oneself is not a necessary element at all.</p>
+
+<p> Q. Is it possible to identify with two things at once?</p>
+<p> A. With ten thousand! It is necessary to observe and observe. From one point of view struggling with identification is not so difficult, because, if we can see it, it becomes so ridiculous that we cannot remain identified. Other people's identification always seems ridiculous and ours may become so too. Laughter may be useful in this respect if we can turn it on ourselves.</p>
+
+<p> Q. I cannot see why identification is a bad thing.</p>
+<p> A. Identification is a bad thing if you want to awake, but if you want to sleep, then it is a good thing.</p>
+
+ <p> Q. Would not everything we do suffer if we kept our minds on keeping awake instead of attending to what we are doing?</p>
+<p> A. I have already explained that it is quite the opposite. We can do well whatever we are doing only as much as we are awake. The more we are asleep, the worse we do the thing we are doing there are no exceptions. You take it academically, simply as a word, but between deep sleep and complete awakening there are different degrees, and you pass from one degree to another.</p>
+
+<p> Q. If we feel more awake, we should not overtax these moments, should we?</p>
+<p> A. How can we overtax them? These moments are too short even if we have glimpses. We can only try not to forget them and act in accordance with these moments. This is all we can do.</p>
+
+<p> Q. Can you say that identification is being in the grip of something, not being able to shake off some idea in mind?</p>
+<p> A. Being in the grip of things is an extreme case. There are many small identifications which are very difficult to observe, and these are the most important because they keep us mechanical. We must realize that we always pass
+ from one identification to another. If a man looks at a wall, he is identified with the wall.</p>
+
+<p> Q. How does identification differ from associations?</p>
+<p> A. Associations are quite another thing; they can be more controlled or less controlled, but they have nothing to do with identification. Different associations are a necessary part of thinking; we define things by associations and we do everything with the help of associations.</p>
+
+<p> Q. I cannot see why an 'I' changes. Can the cause always be seen in some identification?</p>
+<p> A. It is always by associations. A certain number of 'I's try to push their way to the front, so as soon as one loses oneself in one of them it is replaced by another. We think that 'I's are just passive, indifferent things, but emotions, associations, memories, always work. That is why it is useful to stop thinking, even occasionally, as an exercise. Then you will begin to see how difficult it is to do it. Your question simply shows that you have never tried,
+ otherwise you would know.</p>
+
+<p> Q. Is concentration identification?</p>
+<p> A. Concentration is controlled action; identification controls you.</p>
+
+<p> Q. Is concentration possible for us?</p>
+<p> A. There are degrees. Intentional concentration for half an hour is impossible. If we could concentrate without external help, we would be conscious. But everything has degrees.</p>
+
+<p> Q. Is the beginning of a new observation identification with the object you observe?</p>
+<p> A. Identification happens when you are repelled or attracted by something. Study or observation does not necessarily produce identification, but attraction and repulsion always does. Also, we use too strong a language, and this automatically produces identification. We have many automatic appliances of this sort.</p>
+
+<p> Q. What can I do about identification? I feel that I always lose myself in whatever I do. It does not seem possible to be different.</p>
+<p> A. No, it is possible. If you have to do something, you have to do it, but you may identify more or identify less. There is nothing hopeless in it so long as you remember about it. Try to observe; you do not always identify to the same extent; sometimes you identify so that you can see nothing else, at other times you can see something. If things were always the same, there would be no chance for us, but they always vary in degree of intensity, and that gives a possibility of change. Everything we do, we have to learn in advance. If you want to drive a car, you have to learn before hand. If you work now, in time you will have more control.</p>
+
+<p> Q. Why is it wrong to be completely absorbed in one's work?</p>
+<p> A. It will be bad work. If you are identified, you can never get good results. It is one of our illusions to think that we must lose ourselves to get good results, for in this way we only get poor results. When one is identified, one
+ does not exist; only the thing exists with which one is identified.</p>
+
+<p> Q. Is the aim of non-identifying to free the mind from the object?</p>
+<p> A. The aim is to awake. Identifying is a feature of sleep; identified mind is asleep. Freedom from identifying is one of the sides of awakening. A state where identifying does not exist is quite possible, but we do not observe it in
+ life and we do not notice that we are constantly identified. Identifying cannot disappear by itself; struggle is necessary.</p>
+
+<p> Q. How can any one awake if identification is universal?</p>
+<p> A. One can only awake as a result of effort, of struggle against it. But first one must understand what to identify means. As in everything else, so in identification there are degrees. In observing oneself one finds when one is more identified, less identified or not identified at all. If one wants to awake, one must and can get free from identification. As we are, every moment of our life we are lost, we are never free, because we identify.</p>
+
+<p> Q. Can you give an example of identification?</p>
+<p> A. We identify all the time, that is why it is difficult to give an example. For instance, take likes and dislikes, they all mean identification, especially dislikes. They cannot exist without identification and generally they are nothing but identification. Usually people imagine that they have many more dislikes than they actually have. If they investigate and analyse them, they will probably find that they only dislike one or two things. When I studied it, there was only one real dislike that I could find in myself. But you must find your own examples; it must be verified by personal experience. If at a moment of a strong identification you try to stop it, you will see the idea.</p>
+
+<p> Q. But I still do not understand what it is!</p>
+<p> A. Let us try from the intellectual side. You realize that you do not remember yourself? Try to see why you cannot and you will find that identification prevents you. Then you will see what it is. All these things are connected.</p>
+
+<p> Q. Is non-identifying the only way to know what identifying is?</p>
+<p> A. No, as I explained, by observing it, because it is not always the same. We do not notice the temperature of our body except when it becomes a little higher or lower than normal. In the same way we can notice identification when it is stronger or weaker than usual. By comparing these degrees we can see what it is.</p>
+
+<p> Q. In struggling with identification is it necessary to know why one is identified?</p>
+<p> A. One is identified not for any particular reason or purpose, but in all cases because one cannot help it. How can you know why you identify? But you must know why you struggle. This is the thing. If you do not forget the reason why, you will be ten times more successful. Very often we begin struggling and then forget why. There are many forms of identification, but the first step is to see it; the second step is to struggle with it in order to become free from it. As I said, it is a process, not a moment; we are in it all the time. We spend our energy in the wrong way on identification and negative emotions; they are open taps from which our energy flows out.</p>
+
+<p> Q. Can one suddenly change the energy of anger into something else? One has tremendous energy at these moments.</p>
+<p> A. One has tremendous energy, and it works by itself, without control, and makes one act in a certain way. Why? What is the connecting link? Identification is the link. Stop identification and you will have this energy at your disposal. How can you do this? Not at once; it needs practice at easier moments. When emotion is very strong you cannot do it. It is necessary to know more, to be prepared. If you know how not to identify at the right moment, you will have great energy at your disposal. What you do with it is another thing; you may lose it again on something quite useless. But it needs practice. You cannot learn to swim when you fall into the sea during a storm you must learn in calm water. Then, if you fall in, you may perhaps be able to swim. I repeat again:<em> it is impossible to be conscious if you are identified.</em> This is one of the difficulties that comes later, because people have some favourite identifications which they do not want to give up, and at the same time they say they want to be conscious. The two things cannot go together. There are many incompatible things in life, and identification and consciousness are two of the most incompatible.</p>
+
+<p> Q. How can one avoid the reaction which comes after feeling very enthusiastic? Is it due to identification?</p>
+<p> A. Yes, this reaction comes as a result of identification. Struggle with identification will prevent it from happening. It is not what you call enthusiasm that produces the reaction, but the identification. Identification is always followed by this reaction.</p>
+
+<p> Q. Is a bored man identified with nothing?</p>
+<p> A. Boredom is also identification one of the biggest. It is identification with oneself, with something in oneself.</p>
+
+<p> Q. Is it not possible that, by acquiring certain knowledge and power through self-remembering and other practices, man can use this power for evil purposes?</p>
+<p> A. You see, an inevitable part of the process of self-development is the awakening of conscience, and the awakening of conscience will prevent any possibility of using new powers for any wrong aim or purpose. This must be definitely understood from the very beginning, because conscience, when it awakes, will not allow one to do anything selfish or contrary to other people's interests, or harmful to anybody - nothing, in fact, that we may consider wrong or evil. And conscience has to be awakened, because with unawakened conscience one will always make mistakes and will not see contradictions in oneself.</p>
+
+<p> Q. I have never been able to get any evidence that anybody has achieved self-remembering.</p>
+<p> A. You will not see the evidence. If all other people were able to remember themselves and you were not, it would not help you.</p>
+
+<p> Q. Yes it would, because they would have more information.</p>
+<p> A. For themselves, not for you. You must prove it to yourself. No one can prove it for you.</p>
+
+<p> Q. Because we work on ourselves, it does not mean that we shall gain higher consciousness, does it?</p>
+<p> A. No, it may take a very long time. We want to acquire control of higher states of consciousness, but before that the system speaks of acquiring control over ordinary faculties, over thoughts, over emotions, and in acquiring this control we must eliminate certain things and create the possibility of self-remembering. So first we must acquire control over simple, ordinary things. Only then can we expect more. In this system there are gradual steps, one cannot jump.</p>
+
+<p> Q. Can you give an example of different human activities?</p>
+<p> A. Take two simple examples in order to understand the idea. To build a house, effort is needed at every moment, every single brick must be put into place with a certain effort; no triad passes into another triad without effort. At last the house is built and furnished. Then, if you want to burn it, you just strike a match and put it to something inflammable, and the house is burnt. If you go deeper into it you will see that these are two different activities. You cannot build a house by the same activity as you burn it. In the second case one triad passes into another without any effort, automatically, after the first initial effort of striking a match.
+
+ Examples of the third kind of triad, in our experience, can be found only in conscious work, not identified work, or in some activity that has a peculiar quality of its own that cannot be imitated by others, such as artistic creation. Efforts at self-remembering and not identifying belong to this category. If you think about it you will understand that in order to paint a good picture, for instance, one must use a different triad from the one used in building a house or the one used for burning a house; something else is needed.
+
+ Another triad may be called invention, discovery, craft. If you think about these four different activities, they will give you material for observing and comparing. Try to see why and in what they are different.</p>
+
+<p> Q. I find it possible to struggle with smaller negative emotions, but sometimes they are too strong and there is an explosion.</p>
+<p> A. I tried to explain that negative emotions are different, and you cannot use the same methods against all of them. In all cases you must be prepared. It is too late to think when you are already in the negative emotion. You must study identification and be able not to identify; you must be able to think in the right way not at that moment but before and after. And you must be able to use negative emotions for self-remembering. But before all that you must be able to control the manifestation of negative emotions. If you cannot control the manifestation, you cannot start struggling with negative emotions themselves. But you must understand that you can do nothing when you are in the negative emotion; you can do it before and after. Sometimes, when you are better prepared, you can use them for self-remembering, but that is quite a special thing. In the work everything can be used, all wrong functions can be used, so negative emotions of all kinds can be useful as a help for self-remembering. By that I mean that you can train yourself in such a way that negative emotions will remind you of the necessity of remembering yourself.</p>
+
+<p> Q. Did you say that negative emotions would be useful if we could be not identified with them?</p>
+<p> A. If we could be not identified, we would have different results. That would help very definitely, since it would give orientation to life and many other things we do not know yet.
+
+ Yes, I said if we could not identify they would be very useful functions. As they are, they are not useful. All negative emotions that we cannot avoid become useful functions if we use them for self-remembering. Some people manage to do that and get two things at once elimination of the negative emotion and creation of self-remembering. If you have a persistent negative emotion and by right thinking connect it with self-remembering, then, after some time, it will help self-remembering, and after some more time, if you persist, the emotion will disappear. So they can serve a useful purpose if you can use them; but if you identify with them, they are no good at all.</p>
+
+<p> Q. I could see myself losing my temper the other day when I was talking to somebody, but I could not stop it. How can I control temper?</p>
+<p> A. This is an example of mechanicalness. You cannot control your temper when it has already begun to appear it is then too late. Struggle must begin in your mind, you must find your way to think rightly about a definite difficulty. Supposeyou have to meet a certain man who irritates you. Your temper shows itself, you do not like it. How can you stop it? You must begin with the study of your thinking. What do you think about this man not what you feel when you are irritated, but what do you think about him at quiet moments? You may find that in your mind you argue with him, you prove to him that he is wrong, you tell him all his mistakes, you find that, generally, he behaves wrongly towards you. This is where you are wrong. You must learn to think rightly. Then, if you do, it will happen like this although emotion is much quicker than thought, emotion is a temporary thing, but thought can be made continuous, so whenever the emotion jumps out, it hits against this continuous thought and cannot go on and manifest itself. So you can struggle with the expression of negative emotions, as in this example, only by creating continuous right thinking. To explain what right thinking is in a few words is impossible, it is necessary to study it. If you remember what I said about parts of centres you will come to that, because in most cases and most conditions in ordinary life people think only with the mechanical part of the intellectual centre, which is the formatory apparatus. This is not sufficient. It is necessary to use the intellectual part of the intellectual centre. Identifying is the chief reason why we do not use it. Trying to self-remember and trying not to identify is the best means of passing into higher parts of centres. But we always forget about identification and about self-remembering.</p>
+
+<p> Q. Can conquering negative emotions, like fear, create energy?</p>
+<p> A. Very much so. This is one of the best means of collecting energy. All possibilities of development are contained in conquering negative emotions and transforming them.</p>
+
+<p> A man with negative emotions will never do anything.</p>
+
+<p> Q. Into what kind of things can negative emotions be transformed?</p>
+<p> A. It is better to say they must be conquered. But, if you like, we can say that they are transformed into some kind of emotion mixed with very much understanding an emotion of higher parts of centres. Almost any negative emotion we have now can be transformed into an emotion of higher parts of centres. But this needs understanding, conviction that it is necessary, and decision to do it.</p>
+
+<p> Q. I find enjoyment a great difficulty. I enjoy almost everything, and this seems to send me to sleep.</p>
+<p> A. Try to remember yourself, then enjoyment will be bigger, fuller and you will profit from it. But if it makes you fall asleep, you must try to avoid it, that is all. Every kind of emotional state can be used for self-remembering, but before you can do that it is necessary to create a capacity for it; and the capacity can be created only by constant, regular effort. If you just think about it once a week, nothing will come of it.</p>
+
+<p> Prayer is also an inseparable part of any religion; but prayer can be very different. Prayer can be a petition for help in anything we may undertake, and also, through school-work, prayer can become help itself. It can become an instrument of work which can be used for reviving ideas of the system, it can be used for self-remembering and for reminding us about sleep and the necessity for awakening.</p>`,
         source: "The Fourth Way - P.D. Ouspensky"
       }
     ]
@@ -445,7 +827,22 @@ means identification; external considering means struggle with identification. I
 ];
 
 const glossaryElement = document.getElementById("glossary");
-terms.forEach((item) => {
+const searchInput = document.getElementById('search');
+const expandAllBtn = document.getElementById('expandAll');
+const collapseAllBtn = document.getElementById('collapseAll');
+
+function renderTerms(filter = '') {
+  glossaryElement.innerHTML = '';
+  const q = filter.trim().toLowerCase();
+  terms.forEach((item) => {
+    const combined = (item.term + ' ' + item.excerpts.map(e=>e.text).join(' ')).toLowerCase();
+    if (q && !combined.includes(q)) return;
+    renderTermItem(item);
+  });
+}
+
+function renderTermItem(item) {
+  // preserve original item-level rendering but as a reusable function
   const listItem = document.createElement("li");
   listItem.classList.add("term");
 
@@ -481,7 +878,42 @@ terms.forEach((item) => {
   });
 
   glossaryElement.appendChild(listItem);
-});
+}
+
+// initial render
+renderTerms();
+
+// search wiring
+if (searchInput) {
+  let t;
+  searchInput.addEventListener('input', (e) => {
+    clearTimeout(t);
+    t = setTimeout(()=> renderTerms(e.target.value), 150);
+  });
+}
+
+// expand / collapse all
+function setAll(open) {
+  document.querySelectorAll('#glossary .definition').forEach(d => {
+    d.style.display = open ? 'block' : 'none';
+  });
+}
+
+if (expandAllBtn) expandAllBtn.addEventListener('click', ()=> setAll(true));
+if (collapseAllBtn) collapseAllBtn.addEventListener('click', ()=> setAll(false));
+
+// done wiring
+
+// --- end of new render functions ---
+
+// Note: keep original terms loop removed in favor of renderTerms
+
+// (no further change to the `terms` data below)
+
+
+//
+// end of injected UI wiring
+//
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(function() {
