@@ -500,14 +500,20 @@ if (searchInput) {
     const termElements = document.querySelectorAll('.term');
     
     termElements.forEach(term => {
-      const termTitle = term.querySelector('span').textContent.toLowerCase();
-      const termContent = term.querySelector('.definition').textContent.toLowerCase();
+      const termSpan = term.querySelector('span');
+      const definition = term.querySelector('.definition');
       
-      if (searchTerm === '' || termTitle.includes(searchTerm) || termContent.includes(searchTerm)) {
+      if (!termSpan || !definition) return;
+      
+      const termTitle = termSpan.textContent.toLowerCase();
+      const termContent = definition.textContent.toLowerCase();
+      
+      const matches = searchTerm === '' || termTitle.includes(searchTerm) || termContent.includes(searchTerm);
+      
+      if (matches) {
         term.style.display = 'block';
-        // Auto-open if searching for content
         if (searchTerm !== '' && termContent.includes(searchTerm)) {
-          term.querySelector('.definition').style.display = 'block';
+          definition.style.display = 'block';
         }
       } else {
         term.style.display = 'none';
