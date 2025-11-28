@@ -304,7 +304,7 @@ const terms = [
     term: "Formatory apparatus",
     excerpts: [
       {
-        text: `<p>So struggle with formatory thinking is struggle against lunacy in ourselves...</p>`,
+        text: `<p>So struggle with formatory thinking is struggle against lunacy in ourselves.</p>`,
         source: "The Fourth Way - P.D. Ouspensky"
       }
     ]
