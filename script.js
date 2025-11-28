@@ -505,6 +505,10 @@ if (searchInput) {
       
       if (!termSpan || !definition) return;
       
+      // Always clear old marks first
+      const originalText = definition.textContent;
+      definition.innerHTML = definition.innerHTML.replace(/<mark>/g, '').replace(/<\/mark>/g, '');
+      
       const termTitle = termSpan.textContent.toLowerCase();
       const termContent = definition.textContent.toLowerCase();
       
@@ -514,12 +518,11 @@ if (searchInput) {
         term.style.display = 'block';
         if (searchTerm !== '') {
           definition.style.display = 'block';
-          // Clear old marks first
-          definition.innerHTML = definition.innerHTML.replace(/<mark>/g, '').replace(/<\/mark>/g, '');
           
-          // Apply new highlighting
+          // Apply new highlighting only if search term is not empty
           if (searchTerm.length > 0) {
             const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            // Match whole words surrounded by word boundaries
             const regex = new RegExp(`\\b${escapedTerm}\\b`, 'gi');
             const html = definition.innerHTML;
             const highlighted = html.replace(
