@@ -488,3 +488,42 @@ if ('serviceWorker' in navigator) {
     console.log('Service Worker Registered');
   });
 }
+
+// Search functionality
+const searchInput = document.getElementById('search');
+const expandAllBtn = document.getElementById('expandAll');
+const collapseAllBtn = document.getElementById('collapseAll');
+
+if (searchInput) {
+  searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    const termElements = document.querySelectorAll('.term');
+    
+    termElements.forEach(term => {
+      const termText = term.textContent.toLowerCase();
+      if (searchTerm === '' || termText.includes(searchTerm)) {
+        term.style.display = 'block';
+      } else {
+        term.style.display = 'none';
+      }
+    });
+  });
+}
+
+if (expandAllBtn) {
+  expandAllBtn.addEventListener('click', function() {
+    const definitions = document.querySelectorAll('.definition');
+    definitions.forEach(def => {
+      def.style.display = 'block';
+    });
+  });
+}
+
+if (collapseAllBtn) {
+  collapseAllBtn.addEventListener('click', function() {
+    const definitions = document.querySelectorAll('.definition');
+    definitions.forEach(def => {
+      def.style.display = 'none';
+    });
+  });
+}
