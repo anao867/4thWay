@@ -494,39 +494,6 @@ const searchInput = document.getElementById('search');
 const expandAllBtn = document.getElementById('expandAll');
 const collapseAllBtn = document.getElementById('collapseAll');
 
-function highlightText(element, searchTerm) {
-  if (!searchTerm || searchTerm.length === 0) {
-    // Remove previous highlights
-    element.innerHTML = element.innerHTML.replace(/<mark[^>]*>(.*?)<\/mark>/gi, '$1');
-    return;
-  }
-  
-  const regex = new RegExp(`(${searchTerm})`, 'gi');
-  const text = element.textContent;
-  
-  // Only process text nodes to avoid breaking HTML
-  const walk = document.createTreeWalker(
-    element,
-    NodeFilter.SHOW_TEXT,
-    null,
-    false
-  );
-  
-  const nodesToReplace = [];
-  let node;
-  while (node = walk.nextNode()) {
-    if (node.nodeValue.toLowerCase().includes(searchTerm.toLowerCase())) {
-      nodesToReplace.push(node);
-    }
-  }
-  
-  nodesToReplace.forEach(node => {
-    const span = document.createElement('span');
-    span.innerHTML = node.nodeValue.replace(regex, '<mark>$1</mark>');
-    node.parentNode.replaceChild(span, node);
-  });
-}
-
 if (searchInput) {
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
@@ -547,10 +514,20 @@ if (searchInput) {
         term.style.display = 'block';
         if (searchTerm !== '' && termContent.includes(searchTerm)) {
           definition.style.display = 'block';
-          highlightText(definition, searchTerm);
-        } else {
-          // Clear highlights if not matching content
-          definition.innerHTML = definition.innerHTML.replace(/<mark[^>]*>(.*?)<\/mark>/gi, '$1');
+          // Apply highlighting
+          if (searchTerm.length > 0) {
+            const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            const html = definition.innerHTML;
+            // Only highlight text that's not already in tags
+            const highlighted = html.replace(
+              /(<[^>]+>)|([^<]+)/g,
+              function(match, tag, text) {
+                if (tag) return tag;
+                return text.replace(regex, '<mark>$1</mark>');
+              }
+            );
+            definition.innerHTML = highlighted;
+          }
         }
       } else {
         term.style.display = 'none';
